@@ -12,12 +12,12 @@ function App() {
         <div className="container mx-auto px-6 py-24">
           <div className="flex flex-col items-center text-center">
             <img
-              src="/images/profilephoto2.jpg"
+              src="/images/profile.jpg"
               alt="Profile"
               className="w-40 h-40 rounded-full border-4 border-white shadow-lg mb-6 object-cover"
             />
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Aleli Macapagal</h1>
-            <h2 className="text-xl md:text-2xl mb-6">IT Engineer</h2>
+            <h2 className="text-xl md:text-2xl mb-6">Systems Engineer</h2>
             <p className="text-lg max-w-2xl mb-8">
               A Systems Engineer with 10+ years of experience in building and managing scalable applications.
               Specialized in .Net, Java, MERN, Python, Cloud technologies, and Network support.
