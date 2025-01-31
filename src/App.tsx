@@ -19,12 +19,12 @@ function App() {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Aleli Macapagal</h1>
             <h2 className="text-xl md:text-2xl mb-6">IT Engineer</h2>
             <p className="text-lg max-w-2xl mb-8">
-              Passionate software engineer with 5+ years of experience in building scalable applications.
-              Specialized in .Net, Java, MERN, Cloud technologies, and Network support.
+              A Systems Engineer with 10+ years of experience in building and managing scalable applications.
+              Specialized in .Net, Java, MERN, Python, Cloud technologies, and Network support.
             </p>
             <p className="text-base max-w-3xl mb-8">
-              I bring with me a decade of experience as an IT Specialist and have recently enhanced my skills through 
-              Centennial College's Software Engineering program, adding to my Computer Science degree. My career spans full-stack development, database management, 
+              I bring with me more than a decade of experience as an IT Specialist and have recently enhanced my skills through 
+              Centennial College's Software Engineering Technology program, adding to my Computer Science degree. My career spans full-stack development, database management, 
               and cloud computing, with proficiency in Java, Python, and C#. I've led system upgrades, streamlined workflows, 
               and improved efficiency in my IT Specialist role. My academic projects showcase my ability to blend innovation with technical expertise. What sets me apart is my unique combination of 
               extensive industry experience and fresh academic insights. I excel in building user-centric applications and have a 
