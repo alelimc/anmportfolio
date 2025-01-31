@@ -5,12 +5,12 @@ const skills = [
   {
     category: 'Frontend',
     icon: Layout,
-    technologies: ['C#', 'Java', 'React', 'TypeScript', 'Tailwind CSS'],
+    technologies: ['C#', 'Java', 'Python', 'MERN', 'CSS'],
   },
   {
     category: 'Backend',
     icon: Terminal,
-    technologies: ['Node.js', 'Express', 'Python', 'Java'],
+    technologies: ['Node.js', 'Express', 'RESTful APIs'],
   },
   {
     category: 'Databases',
@@ -25,7 +25,7 @@ const skills = [
   {
     category: 'Tools',
     icon: Settings,
-    technologies: ['Git', 'Github', 'VS Code', 'Jira', 'Visual Studio', 'Android Studio', 'Postman', 'Playwright'],
+    technologies: ['Git', 'Github', 'VS Code', 'PowerBI', 'Jira', 'Visual Studio', 'Android Studio', 'Postman', 'Playwright'],
   },
   {
     category: 'Languages',

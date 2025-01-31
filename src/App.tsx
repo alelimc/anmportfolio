@@ -7,9 +7,9 @@ import ContactForm from './components/ContactForm';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <header className="bg-gradient-to-r from-purple-600 to-pink-600 text-white">
-        <div className="container mx-auto px-6 py-24">
+<div className="min-h-screen bg-gray-50">
+      <header className="bg-gradient-to-r from-blue-600 to-gray-600 text-white">
+        <div className="container mx-auto px-6 py-8">
           <div className="flex flex-col items-center text-center">
             <img
               src="/images/profile.jpg"
@@ -18,19 +18,13 @@ function App() {
             />
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Aleli Macapagal</h1>
             <h2 className="text-xl md:text-2xl mb-6">Systems Engineer</h2>
-            <p className="text-lg max-w-2xl mb-8">
+            <p className="text-base max-w-3xl mb-8 leading-relaxed">
               A Systems Engineer with 10+ years of experience in building and managing scalable applications.
               Specialized in .Net, Java, MERN, Python, Cloud technologies, and Network support.
             </p>
-            <p className="text-base max-w-3xl mb-8">
-              I bring with me more than a decade of experience as an IT Specialist and have recently enhanced my skills through 
-              Centennial College's Software Engineering Technology program, adding to my Computer Science degree. My career spans full-stack development, database management, 
-              and cloud computing, with proficiency in Java, Python, and C#. I've led system upgrades, streamlined workflows, 
-              and improved efficiency in my IT Specialist role. My academic projects showcase my ability to blend innovation with technical expertise. What sets me apart is my unique combination of 
-              extensive industry experience and fresh academic insights. I excel in building user-centric applications and have a 
-              track record of successful project delivery and team mentoring. I'm eager to bring my technical skills, problem-solving abilities, 
-              and innovative approach to your organization. Feel free to drop me a message, I'd love to learn more about your company's goals 
-              and how my experience could contribute to your team's success.
+            <p className="text-base max-w-3xl mb-8 leading-relaxed">
+              I have over a decade of experience as a Systems Engineer, complemented by a Computer Science degree and recent studies in Centennial College's Software Engineering Technology program. I've led system upgrades, streamlined workflows, and improved efficiency in my IT Specialist role. 
+              My expertise includes full-stack development, database management, and cloud computing, with strong skills in Java, Python, and C#. I excel in creating user-centric applications, leading projects, and mentoring teams. I'm excited to apply my technical skills and innovative approach to contribute to your organization's success.
             </p>
             <div className="flex space-x-4">
               <a href="https://github.com/alelimc" className="hover:text-blue-200 transition-colors">
@@ -56,7 +50,7 @@ function App() {
             <ProjectCard
               title="Website Design"
               description="A Homecare company website"
-              technologies={['React', 'Node.js']}
+              technologies={['HTML', 'CSS']}
               image="/images/yayahs.jpg"
               githubUrl="https://github.com"
               liveUrl="https://yayahomecareservices.ca/"
@@ -64,7 +58,7 @@ function App() {
             <ProjectCard
               title="Bloodbank Management System"
               description="Blood bank management web application"
-              technologies={['Java', 'Socket.io', 'MongoDB']}
+              technologies={['Springboot', 'JavaEE', 'MySQL', 'JSON']}
               image="/images/bloodbankapp.jpg"
               githubUrl="https://github.com"
               liveUrl="https://example.com"
@@ -72,7 +66,7 @@ function App() {
             <ProjectCard
               title="Analytics Dashboard"
               description="Data visualization dashboard for business metrics"
-              technologies={['Python', 'PowerBI', 'Azure', 'AWS']}
+              technologies={['Python', 'PowerBI', 'Azure']}
               image="/images/data_analytics.jpg"
               githubUrl="https://github.com"
               liveUrl="https://example.com"
@@ -84,7 +78,15 @@ function App() {
               image="/images/migration.png"
               githubUrl="https://github.com"
               liveUrl="https://example.com"
-            />            
+            />  
+            <ProjectCard
+              title="iPAD MDM Configuration"
+              description="Configuration of iPADs for a large organization using Mobile Device Management"
+              technologies={['Lightspeed MDM', 'Apple Configurator', 'Mac Server']}
+              image="/images/ipadmdm.png"
+              githubUrl="https://github.com"
+              liveUrl="https://example.com"
+            />                                  
           </div>
         </div>
       </section>
