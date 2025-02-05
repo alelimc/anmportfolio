@@ -27,7 +27,7 @@ function App() {
               My expertise includes full-stack development, database management, and cloud computing, with strong skills in Java, Python, and C#. I excel in creating user-centric applications, leading projects, and mentoring teams. I'm excited to apply my technical skills and innovative approach to contribute to your organization's success.
             </p>
             <div className="flex space-x-4">
-              <a href="https://github.com/alelimc" className="text-yellow-500 hover:text-blue-200 transition-colors">
+              <a href="https://github.com/leizcool" className="text-yellow-500 hover:text-blue-200 transition-colors">
                 <Github size={24} />
               </a>
               <a href="https://www.linkedin.com/in/alelimacapagal/" className="text-yellow-500 hover:text-blue-200 transition-colors">
@@ -52,7 +52,7 @@ function App() {
               description="A Homecare company website"
               technologies={['HTML', 'CSS']}
               image="/images/yayahs.jpg"
-              githubUrl="https://github.com"
+              githubUrl="https://github.com/leizcool"
               liveUrl="https://yayahomecareservices.ca/"
             />
             <ProjectCard
@@ -60,7 +60,7 @@ function App() {
               description="Blood bank management web application"
               technologies={['Springboot', 'JavaEE', 'MySQL', 'JSON']}
               image="/images/bloodbankapp.jpg"
-              githubUrl="https://github.com"
+              githubUrl="https://github.com/leizcool"
               liveUrl="https://example.com"
             />
             <ProjectCard
@@ -68,7 +68,7 @@ function App() {
               description="Data visualization dashboard for business metrics"
               technologies={['Python', 'PowerBI', 'Azure']}
               image="/images/data_analytics.jpg"
-              githubUrl="https://github.com"
+              githubUrl="https://github.com/leizcool"
               liveUrl="https://example.com"
             />
             <ProjectCard
@@ -76,7 +76,7 @@ function App() {
               description="Email and Microsoft Office upgrade/migration project for a large organization"
               technologies={['Office 365', 'Exchange', 'Outlook', 'Lotus Notes']}
               image="/images/migration.png"
-              githubUrl="https://github.com"
+              githubUrl="https://github.com/leizcool"
               liveUrl="https://example.com"
             />  
             <ProjectCard
@@ -84,7 +84,7 @@ function App() {
               description="Configuration of iPADs for a large organization using Mobile Device Management"
               technologies={['Lightspeed MDM', 'Apple Configurator', 'Mac Server']}
               image="/images/ipadmdm.png"
-              githubUrl="https://github.com"
+              githubUrl="https://github.com/leizcool"
               liveUrl="https://example.com"
             />                                  
           </div>
