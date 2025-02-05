@@ -31,7 +31,7 @@ const ExperienceTimeline: React.FC = () => {
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-12">Professional Experience</h2>
+        <h2 className="text-3xl font-bold text-center mb-12 text-blue-800">Professional Experience</h2>
         <div className="max-w-3xl mx-auto">
           {experiences.map((exp, index) => (
             <div key={index} className="relative pl-8 pb-8">
