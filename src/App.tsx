@@ -16,24 +16,24 @@ function App() {
               alt="Profile"
               className="w-40 h-40 rounded-full border-4 border-white shadow-lg mb-6 object-cover"
             />
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-yellow-500">Aleli Macapagal</h1>
-            <h2 className="text-xl md:text-2xl mb-6">Systems Engineer</h2>
-            <p className="text-base max-w-3xl mb-8 leading-relaxed">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 ">Aleli Macapagal</h1>
+            <h2 className="text-xl md:text-2xl mb-6 text-blue-300">Systems Engineer</h2>
+            <p className="text-base max-w-3xl mb-8 leading-relaxed text-blue-100">
               A Systems Engineer with 10+ years of experience in building and managing scalable applications.
               Specialized in .Net, Java, MERN, Python, Cloud technologies, and Network support.
             </p>
-            <p className="text-base max-w-3xl mb-8 leading-relaxed">
+            <p className="text-base max-w-3xl mb-8 leading-relaxed text-blue-100">
               I have over a decade of experience as a Systems Engineer, complemented by a Computer Science degree and recent studies in Centennial College's Software Engineering Technology program. I've led system upgrades, streamlined workflows, and improved efficiency in my IT Specialist role. 
               My expertise includes full-stack development, database management, and cloud computing, with strong skills in Java, Python, and C#. I excel in creating user-centric applications, leading projects, and mentoring teams. I'm excited to apply my technical skills and innovative approach to contribute to your organization's success.
             </p>
             <div className="flex space-x-4">
-              <a href="https://github.com/leizcool" className="text-yellow-500 hover:text-blue-200 transition-colors">
+              <a href="https://github.com/leizcool" className="text-blue-300 hover:text-blue-100 transition-colors">
                 <Github size={24} />
               </a>
-              <a href="https://www.linkedin.com/in/alelimacapagal/" className="text-yellow-500 hover:text-blue-200 transition-colors">
+              <a href="https://www.linkedin.com/in/alelimacapagal/" className="text-blue-300 hover:text-blue-100 transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:alelimc@yahoo.com" className="text-yellow-500 hover:text-blue-200 transition-colors">
+              <a href="mailto:alelimc@yahoo.com" className="text-blue-300 hover:text-blue-100 transition-colors">
                 <Mail size={24} />
               </a>
             </div>
