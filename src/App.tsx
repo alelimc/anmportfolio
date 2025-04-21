@@ -97,7 +97,7 @@ function App() {
               description="The Personalized Diet Planner is a web application developed to simplify and enhance meal planning by providing tailored dietary recommendations. Designed for individuals and healthcare providers, the system helps promote healthier eating habits, supports specific medical and fitness goals, and accommodates dietary restrictions such as allergies or vegetarian and vegan lifestyles."
               technologies={['Springboot', 'JavaEE', 'MySQL', 'JSON']}
               image="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-              githubUrl="https://github.com/leizcool/Blood-Bank-Management-System"
+              githubUrl="https://github.com/leizcool/Personalized-Diet-Planner.git"
               liveUrl="https://example.com"
             />
             <ProjectCard
