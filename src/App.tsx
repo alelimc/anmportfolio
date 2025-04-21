@@ -142,7 +142,7 @@ function App() {
             />
           </div>
         </div>
-      </section>
+      </section> 
 
       <ExperienceTimeline />
 
@@ -158,7 +158,7 @@ function App() {
           <p>© 2025 Aleli Macapagal. All rights reserved.</p>
         </div>
       </footer>
-    </div>
+    </div> 
   );
 }
 
