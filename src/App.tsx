@@ -17,13 +17,13 @@ function App() {
                 alt="Aleli Macapagal"
                 className="w-48 h-48 rounded-full border-4 border-white shadow-2xl object-cover"
               />
-              <div className="absolute -bottom-2 -right-2 bg-blue-500 text-white px-4 py-1 rounded-full text-sm font-semibold shadow-lg">
+              <div className="absolute -bottom-2 -right-2 bg-emerald-500 text-white px-4 py-1 rounded-full text-sm font-semibold shadow-lg">
                 Available for Work
               </div>
             </div>
             
-            <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200">
-              Aleli Macapagal
+            <h1 className="text-4xl md:text-5xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200">
+              ALELI MACAPAGAL
             </h1>
             <h2 className="text-2xl md:text-3xl mb-6 text-blue-200 font-light">
               Software Engineer & Systems Administrator
@@ -146,13 +146,13 @@ function App() {
 
       <ExperienceTimeline />
 
-      <section className="py-20 bg-gray-50">
+{/*       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Get In Touch</h2>
           <ContactForm />
         </div>
       </section>
-
+ */}
       <footer className="bg-gradient-to-r from-blue-600 to-gray-600 text-white py-8">
         <div className="container mx-auto px-6 text-center">
           <p>© 2025 Aleli Macapagal. All rights reserved.</p>
@@ -163,6 +163,10 @@ function App() {
 }
 
 export default App;
+
+
+
+
 
 
 
