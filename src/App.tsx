@@ -8,33 +8,78 @@ import ContactForm from './components/ContactForm';
 function App() {
   return (
 <div className="min-h-screen bg-gray-50">
-      <header className="bg-gradient-to-r from-blue-600 to-gray-600 text-white">
-        <div className="container mx-auto px-6 py-8">
+      <header className="bg-gradient-to-r from-blue-700 via-blue-600 to-blue-800 text-white">
+        <div className="container mx-auto px-6 py-16">
           <div className="flex flex-col items-center text-center">
-            <img
-              src="/images/profile4.jpg"
-              alt="Profile"
-              className="w-40 h-40 rounded-full border-4 border-white shadow-lg mb-6 object-cover"
-            />
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 ">Aleli Macapagal</h1>
-            <h2 className="text-xl md:text-2xl mb-6 text-blue-300">Systems Engineer</h2>
-            <p className="text-base max-w-3xl mb-8 leading-relaxed text-blue-100">
-              A Systems Engineer with 10+ years of experience in building and managing scalable applications.
-              Specialized in .Net, Java, MERN, Python, Cloud technologies, and Network support.
-            </p>
-            <p className="text-base max-w-3xl mb-8 leading-relaxed text-blue-100">
-              I have over a decade of experience as a Systems Engineer, complemented by a Computer Science degree and recent studies in Centennial College's Software Engineering Technology program. I've led system upgrades, streamlined workflows, and improved efficiency in my IT Specialist role. 
-              My expertise includes full-stack development, database management, and cloud computing, with strong skills in Java, Python, and C#. I excel in creating user-centric applications, leading projects, and mentoring teams. I'm excited to apply my technical skills and innovative approach to contribute to your organization's success.
-            </p>
-            <div className="flex space-x-4">
-              <a href="https://github.com/leizcool" className="text-blue-300 hover:text-blue-100 transition-colors">
-                <Github size={24} />
+            <div className="relative mb-8">
+              <img
+                src="/images/profile4.jpg"
+                alt="Aleli Macapagal"
+                className="w-48 h-48 rounded-full border-4 border-white shadow-2xl object-cover"
+              />
+              <div className="absolute -bottom-2 -right-2 bg-blue-500 text-white px-4 py-1 rounded-full text-sm font-semibold shadow-lg">
+                Available for Work
+              </div>
+            </div>
+            
+            <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200">
+              Aleli Macapagal
+            </h1>
+            <h2 className="text-2xl md:text-3xl mb-6 text-blue-200 font-light">
+              Software Engineer & Systems Administrator
+            </h2>
+            
+            <div className="max-w-3xl mx-auto">
+              <p className="text-lg mb-6 leading-relaxed text-blue-100 font-light">
+                A versatile Tech Professional with 10+ years of global experience, combining deep expertise in System Administration 
+                with modern Software Engineering practices. Currently completing Software Engineering Technology at Centennial College (2025).
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-6 mb-8 text-left">
+                <div className="bg-blue-800/30 p-6 rounded-lg backdrop-blur-sm">
+                  <h3 className="text-xl font-semibold mb-3 text-blue-200">Technical Expertise</h3>
+                  <p className="text-blue-100">
+                    Proficient in full-stack development using Java/Spring Boot, MERN stack, and cloud technologies. 
+                    Expert in Microsoft 365, Azure, AD, and PowerShell automation. Experienced in implementing secure, 
+                    scalable enterprise solutions.
+                  </p>
+                </div>
+                <div className="bg-blue-800/30 p-6 rounded-lg backdrop-blur-sm">
+                  <h3 className="text-xl font-semibold mb-3 text-blue-200">Professional Impact</h3>
+                  <p className="text-blue-100">
+                    Track record of successful enterprise-scale migrations, security implementations, and development of 
+                    business-critical applications. Seeking hybrid/remote roles where I can leverage both development and 
+                    systems expertise.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-center space-x-6">
+              <a 
+                href="https://github.com/leizcool" 
+                className="flex items-center px-6 py-3 bg-white text-blue-700 rounded-full hover:bg-blue-100 transition-colors duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github size={20} className="mr-2" />
+                GitHub
               </a>
-              <a href="https://www.linkedin.com/in/alelimacapagal/" className="text-blue-300 hover:text-blue-100 transition-colors">
-                <Linkedin size={24} />
+              <a 
+                href="https://www.linkedin.com/in/alelimacapagal/" 
+                className="flex items-center px-6 py-3 bg-white text-blue-700 rounded-full hover:bg-blue-100 transition-colors duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Linkedin size={20} className="mr-2" />
+                LinkedIn
               </a>
-              <a href="mailto:alelimc@yahoo.com" className="text-blue-300 hover:text-blue-100 transition-colors">
-                <Mail size={24} />
+              <a 
+                href="mailto:alelimc@yahoo.com" 
+                className="flex items-center px-6 py-3 bg-white text-blue-700 rounded-full hover:bg-blue-100 transition-colors duration-300"
+              >
+                <Mail size={20} className="mr-2" />
+                Email
               </a>
             </div>
           </div>
@@ -48,45 +93,53 @@ function App() {
           <h2 className="text-3xl font-bold text-center mb-12 text-blue-800">Featured Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="Website Design"
-              description="A Homecare company website"
-              technologies={['HTML', 'CSS']}
-              image="/images/yayahs.jpg"
-              githubUrl="https://github.com/leizcool"
-              liveUrl="https://yayahomecareservices.ca/"
+              title="Personalized Diet Planner Web Application"
+              description="The Personalized Diet Planner is a web application developed to simplify and enhance meal planning by providing tailored dietary recommendations. Designed for individuals and healthcare providers, the system helps promote healthier eating habits, supports specific medical and fitness goals, and accommodates dietary restrictions such as allergies or vegetarian and vegan lifestyles."
+              technologies={['Springboot', 'JavaEE', 'MySQL', 'JSON']}
+              image="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+              githubUrl="https://github.com/leizcool/Blood-Bank-Management-System"
+              liveUrl="https://example.com"
             />
             <ProjectCard
-              title="Bloodbank Management System"
-              description="Blood bank management web application"
-              technologies={['Springboot', 'JavaEE', 'MySQL', 'JSON']}
-              image="/images/bloodbankapp.jpg"
-              githubUrl="https://github.com/leizcool"
+              title="Healthcare Monitoring System"
+              description="A web application for nurse practitioners to monitor patients during the first weeks of their release from the hospital and help patients monitor their daily activities."
+              technologies={['MERN stack', 'GraphQL', 'Apollo Server', 'AI', 'Microservices']}
+              image="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+              githubUrl="https://github.com/leizcool/Healthcare-Monitoring-System"
               liveUrl="https://example.com"
             />
             <ProjectCard
               title="Analytics Dashboard"
-              description="Data visualization dashboard for business metrics"
-              technologies={['Python', 'PowerBI', 'Azure']}
-              image="/images/data_analytics.jpg"
+              description="Developed a comprehensive data visualization dashboard using Python and PowerBI, integrated with Azure services. This solution provides real-time business metrics, customizable reports, and predictive analytics capabilities. Features include automated data collection, interactive visualizations, and role-based access control for different stakeholders."
+              technologies={['Python', 'PowerBI', 'Azure', 'SQL', 'Data Analytics']}
+              image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
               githubUrl="https://github.com/leizcool"
               liveUrl="https://example.com"
             />
             <ProjectCard
               title="Email & MS Office Migration"
-              description="Email and Microsoft Office upgrade/migration project for a large organization"
-              technologies={['Office 365', 'Exchange', 'Outlook', 'Lotus Notes']}
-              image="/images/migration.png"
+              description="Led a complex migration project for a 500+ user organization, transitioning from legacy systems to Office 365. Successfully managed the migration of email systems, SharePoint sites, and collaboration tools while ensuring minimal downtime. Implemented security best practices and provided comprehensive end-user training."
+              technologies={['Office 365', 'Exchange Online', 'SharePoint', 'Azure AD', 'PowerShell']}
+              image="https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
               githubUrl="https://github.com/leizcool"
               liveUrl="https://example.com"
             />  
             <ProjectCard
               title="iPAD MDM Configuration"
-              description="Configuration of iPADs for a large organization using Mobile Device Management"
-              technologies={['Lightspeed MDM', 'Apple Configurator', 'Mac Server']}
-              image="/images/ipadmdm.png"
+              description="Implemented and managed a Mobile Device Management solution for 1000+ iPads in an educational environment. Developed automated deployment workflows, custom security policies, and app distribution strategies. Reduced device setup time by 75% and improved security compliance through centralized management."
+              technologies={['Lightspeed MDM', 'Apple Configurator', 'Mac Server', 'iOS Management', 'Security Policies']}
+              image="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
               githubUrl="https://github.com/leizcool"
               liveUrl="https://example.com"
             />                                  
+            <ProjectCard
+              title="Website Design and Implementation"
+              description="Designed and developed a modern, responsive website for Yaya Homecare Services. Implemented SEO best practices, optimized performance, and created an intuitive user interface. The site features service information, contact forms, and a client portal, resulting in increased client engagement and improved online presence."
+              technologies={['HTML5', 'CSS3', 'JavaScript', 'Responsive Design', 'SEO']}
+              image="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+              githubUrl="https://github.com/leizcool"
+              liveUrl="https://yayahomecareservices.ca/"
+            />
           </div>
         </div>
       </section>
@@ -110,3 +163,7 @@ function App() {
 }
 
 export default App;
+
+
+
+

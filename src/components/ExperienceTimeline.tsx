@@ -2,6 +2,12 @@ import React from 'react';
 
 const experiences = [
   {
+    company: 'Precise Solutions, Toronto, ON',
+    position: 'Test Invigilator (Part-Time)',
+    period: 'May 2024 – Present',
+    description: 'Ensured the integrity and security of examination processes in a high-stakes testing environment. Managed technical setups, resolved IT issues, and maintained compliance with testing protocols.',
+  },
+  {
     company: 'Yaya Homecare Services, Toronto, Canada',
     position: 'IT Specialist',
     period: '2023',

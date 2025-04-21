@@ -1,36 +1,36 @@
 import React from 'react';
-import { Code2, Database, Cloud, Layout, Terminal, Settings } from 'lucide-react';
+import { Code2, Database, Cloud, Layout, Terminal, Settings, Shield } from 'lucide-react';
 
 const skills = [
   {
-    category: 'Frontend',
+    category: 'Frontend Development',
     icon: Layout,
-    technologies: ['C#', 'Java', 'Python', 'MERN', 'CSS'],
+    technologies: ['React', 'TypeScript', 'HTML5', 'CSS3', 'Responsive Design', 'SEO', 'UI/UX'],
   },
   {
-    category: 'Backend',
+    category: 'Backend Development',
     icon: Terminal,
-    technologies: ['Node.js', 'Express', 'RESTful APIs'],
+    technologies: ['Java', 'Spring Boot', 'Node.js', 'Express', 'GraphQL', 'Apollo Server', 'RESTful APIs', 'Microservices'],
   },
   {
-    category: 'Databases',
+    category: 'Databases & Analytics',
     icon: Database,
-    technologies: ['SQL', 'MongoDB', 'MySQL', 'OracleSQL'],
+    technologies: ['MySQL', 'MongoDB', 'SQL Server', 'PowerBI', 'Data Analytics', 'Data Visualization'],
   },
   {
-    category: 'Cloud',
+    category: 'Cloud & DevOps',
     icon: Cloud,
-    technologies: ['AWS', 'Docker', 'MS Azure', 'CI/CD'],
+    technologies: ['Azure', 'Azure AD', 'Office 365', 'Docker', 'CI/CD', 'SharePoint'],
   },
   {
-    category: 'Tools',
+    category: 'System Administration',
     icon: Settings,
-    technologies: ['Git', 'Github', 'VS Code', 'PowerBI', 'Jira', 'Visual Studio', 'Android Studio', 'Postman', 'Playwright'],
+    technologies: ['Exchange Online', 'MDM', 'Apple Configurator', 'PowerShell', 'Active Directory', 'System Migration'],
   },
   {
-    category: 'Languages',
-    icon: Code2,
-    technologies: ['C#', 'Python', 'Java', 'JavaScript', 'TypeScript'],
+    category: 'Security & Best Practices',
+    icon: Shield,
+    technologies: ['Security Policies', 'Access Control', 'Compliance', 'Best Practices', 'Technical Documentation'],
   },
 ];
 
@@ -41,7 +41,7 @@ const SkillsSection: React.FC = () => {
         <h2 className="text-3xl font-bold text-center mb-12 text-blue-800">Skills & Technologies</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skills.map((skill) => (
-            <div key={skill.category} className="bg-white rounded-lg shadow-md p-6">
+            <div key={skill.category} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
                 <skill.icon className="w-6 h-6 text-blue-600 mr-2" />
                 <h3 className="text-xl font-bold">{skill.category}</h3>
