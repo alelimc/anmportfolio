@@ -32,7 +32,7 @@ function App() {
             <div className="max-w-3xl mx-auto">
               <p className="text-lg mb-6 leading-relaxed text-blue-100 font-light">
                 A versatile Tech Professional with 10+ years of global experience, combining deep expertise in System Administration 
-                with modern Software Engineering practices. Currently completing Software Engineering Technology at Centennial College (2025).
+                with modern Software Engineering practices. Recently completed Software Engineering Technology at Centennial College (April 2025).
               </p>
               
               <div className="grid md:grid-cols-2 gap-6 mb-8 text-left">
@@ -119,7 +119,7 @@ function App() {
             />
             <ProjectCard
               title="Analytics Dashboard"
-              description="Developed a comprehensive data visualization dashboard using Python and PowerBI, integrated with Azure services. This solution provides real-time business metrics, customizable reports, and predictive analytics capabilities. Features include automated data collection, interactive visualizations, and role-based access control for different stakeholders."
+              description="Developed a comprehensive data visualization dashboard using Python and PowerBI. This solution provides real-time business metrics, customizable reports, and predictive analytics capabilities. Features include interactive visualizations, and role-based access control."
               technologies={['Python', 'PowerBI', 'Azure', 'SQL', 'Data Analytics']}
               image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
               githubUrl="https://github.com/leizcool"
@@ -135,7 +135,7 @@ function App() {
             />  
             <ProjectCard
               title="iPAD MDM Configuration"
-              description="Implemented and managed a Mobile Device Management solution for 1000+ iPads in an educational environment. Developed automated deployment workflows, custom security policies, and app distribution strategies. Reduced device setup time by 75% and improved security compliance through centralized management."
+              description="Implemented and managed a Mobile Device Management solution for 500+ iPads in an educational environment. Developed automated deployment workflows, custom security policies, and app distribution strategies. Reduced device setup time by 75% and improved security compliance through centralized management."
               technologies={['Lightspeed MDM', 'Apple Configurator', 'Mac Server', 'iOS Management', 'Security Policies']}
               image="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
               githubUrl="https://github.com/leizcool"
