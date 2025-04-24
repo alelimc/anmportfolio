@@ -8,14 +8,14 @@ import ContactForm from './components/ContactForm';
 function App() {
   return (
 <div className="min-h-screen bg-gray-50">
-      <header className="bg-gradient-to-r from-blue-700 via-blue-600 to-blue-800 text-white">
-        <div className="container mx-auto px-6 py-16">
+      <header className="bg-gradient-to-r from-sky-600 via-blue-500 to-indigo-600 text-white">
+        <div className="container mx-auto px-6 py-12">
           <div className="flex flex-col items-center text-center">
-            <div className="relative mb-8">
+            <div className="relative mb-6">
               <img
                 src="/images/profile4.jpg"
                 alt="Aleli Macapagal"
-                className="w-48 h-48 rounded-full border-4 border-white shadow-2xl object-cover"
+                className="w-40 h-40 rounded-full border-4 border-white shadow-2xl object-cover"
               />
               <div className="absolute -bottom-2 -right-2 bg-emerald-500 text-white px-4 py-1 rounded-full text-sm font-semibold shadow-lg">
                 Available for Work
@@ -81,6 +81,15 @@ function App() {
                 <Mail size={20} className="mr-2" />
                 Email
               </a>
+              <a 
+                href="/resume/Aleli_Macapagal_Resume.pdf" 
+                className="flex items-center px-6 py-3 bg-white text-blue-700 rounded-full hover:bg-blue-100 transition-colors duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Code2 size={20} className="mr-2" />
+                Resume
+              </a>
             </div>
           </div>
         </div>
@@ -93,8 +102,8 @@ function App() {
           <h2 className="text-3xl font-bold text-center mb-12 text-blue-800">Featured Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="Personalized Diet Planner Web Application"
-              description="The Personalized Diet Planner is a web application developed to simplify and enhance meal planning by providing tailored dietary recommendations. Designed for individuals and healthcare providers, the system helps promote healthier eating habits, supports specific medical and fitness goals, and accommodates dietary restrictions such as allergies or vegetarian and vegan lifestyles."
+              title="Diet Planner Web Application"
+              description="The Diet Planner is a web application developed to simplify and enhance meal planning by providing tailored dietary recommendations. Designed for individuals and healthcare providers, the system helps promote healthier eating habits, supports specific medical and fitness goals, and accommodates dietary restrictions such as allergies or vegetarian and vegan lifestyles."
               technologies={['Springboot', 'JavaEE', 'MySQL', 'JSON']}
               image="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
               githubUrl="https://github.com/leizcool/Personalized-Diet-Planner.git"
@@ -163,6 +172,12 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
 
 
 
