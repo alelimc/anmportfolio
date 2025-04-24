@@ -63,7 +63,7 @@ function App() {
                 rel="noopener noreferrer"
               >
                 <Github size={20} className="mr-2" />
-                GitHub
+                {/* GitHub */}
               </a>
               <a 
                 href="https://www.linkedin.com/in/alelimacapagal/" 
@@ -72,14 +72,14 @@ function App() {
                 rel="noopener noreferrer"
               >
                 <Linkedin size={20} className="mr-2" />
-                LinkedIn
+                {/* LinkedIn */}
               </a>
               <a 
                 href="mailto:alelimc@yahoo.com" 
                 className="flex items-center px-6 py-3 bg-white text-blue-700 rounded-full hover:bg-blue-100 transition-colors duration-300"
               >
                 <Mail size={20} className="mr-2" />
-                Email
+                {/* Email */}
               </a>
               <a 
                 href="/resume/Aleli_Macapagal_Resume.pdf" 
@@ -87,8 +87,7 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Code2 size={20} className="mr-2" />
-                Resume
+                Résumé
               </a>
             </div>
           </div>
@@ -172,6 +171,8 @@ function App() {
 }
 
 export default App;
+
+
 
 
 
