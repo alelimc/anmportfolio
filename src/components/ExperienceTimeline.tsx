@@ -6,12 +6,14 @@ const experiences = [
     position: 'Test Invigilator (Part-Time)',
     period: 'May 2024 – Present',
     description: 'Administer standardized exams, ensuring strict adherence to testing protocols and maintaining a secure environment. | Monitor candidates to uphold academic integrity and provide technical assistance as needed. | Maintain accurate records and promptly report any irregularities to uphold testing standards.',
+    //certificates: ['/certificates/precise-cert.jpg']
   },
   {
     company: 'Yaya Homecare Services, Toronto, ON, Canada',
     position: 'IT Specialist',
     period: '2023',
-    description: 'Developed and launched the company\'s official website, enhancing online presence and user engagement. \| Provided technical support and maintenance, ensuring seamless digital operations. \| Collaborated with stakeholders to implement user-friendly features aligned with business goals.'
+    description: 'Developed and launched the company\'s official website, enhancing online presence and user engagement. \| Provided technical support and maintenance, ensuring seamless digital operations. \| Collaborated with stakeholders to implement user-friendly features aligned with business goals.',
+    //certificates: ['/certificates/yaya-cert.jpg']
   },
   {
     company: 'Technology Elite, Clark Angeles City, Philippines',
@@ -21,7 +23,8 @@ const experiences = [
       'Utilized ConnectWise Manage for efficient ticketing and client communication. | ' +
       'Implemented system upgrades and provided solutions to complex technical issues. | ' +
       'Technologies: Windows System Administration, ConnectWise Manage, Systems Engineering, Remote Administration'
-  },
+      //certificates: ['/certificates/yaya-cert.jpg']
+    },
   {
     company: 'Rashid School for Boys, Dubai, UAE',
     position: 'Information Technology Network Support Specialist',
@@ -30,7 +33,8 @@ const experiences = [
       'Involved in the migration to Microsoft Azure, enhancing cloud computing capabilities. | ' +
       'Maintained technical documentation and supported various platforms including Lotus Notes and Office 365. | ' +
       'Key skills: Microsoft Azure, System Administration, Technical Documentation, Technical Support, Computer Hardware Troubleshooting, IT Hardware Support, Hardware Installation, Office 365, Lotus Notes, Apple Devices Support',
-  },
+    certificates: ['/certificates/rsb-certs.jpg']
+    },
   {
     company: 'Shanghai American School, Shanghai, China',
     position: 'Student Database and Systems Engineer',
@@ -38,7 +42,8 @@ const experiences = [
     description: 'Managed and optimized the PowerSchool Student Information System, improving data accuracy and reporting efficiency. | ' +
       'Developed custom reports using Crystal Reports and SQL, facilitating better decision-making. | ' +
       'Collaborated with cross-functional teams to integrate systems and streamline operations. Technologies: .Net, ASP, SQL',
-  },
+      certificates: ['/certificates/psug.jpg']
+    },
   {
     company: 'GFL Systems, Inc., Clark Angeles City, Philippines',
     position: 'Systems Administrator',
@@ -47,7 +52,8 @@ const experiences = [
       'Implemented remote monitoring solutions, reducing system downtime and enhancing client satisfaction. | ' +
       'Provided technical support and resolved complex issues across diverse IT environments. | ' +
       'Skills: Remote Administration, Linux System Administration, Windows System Administration, Server Maintenance'
-  },
+      //certificates: ['/certificates/yaya-cert.jpg']
+    },
   {
     company: 'Latifa School for Girls (now Rashid and Latifa Schools), Dubai, UAE',
     position: 'ICT Technician',
@@ -55,7 +61,8 @@ const experiences = [
     description: 'Delivered IT support services, including hardware installation, troubleshooting, and help desk support. | ' +
       'Managed email systems and ensured the smooth operation of Microsoft Office applications. | ' +
       'Assisted in the administration of Windows systems, contributing to a stable IT infrastructure. | ' +
-      'Skills: IT Hardware Support, Help Desk Support, Windows System Administration, Microsoft Office'
+      'Skills: IT Hardware Support, Help Desk Support, Windows System Administration, Microsoft Office',
+      certificates: ['/certificates/lsg-certs.jpg']
   },
   {
     company: 'United Gulf Insurance Brokers One Person Co. L.L.C. (UGIB), Dubai, UAE',
@@ -65,7 +72,8 @@ const experiences = [
       'Developed and maintained company websites, enhancing online services and client engagement. | ' +
       'Managed Microsoft SQL Server and Windows Server environments, ensuring data integrity and system reliability. | ' +
       'Skills: Web Design, Web Development, Microsoft SQL Server, Windows Server, IT Management'
-  },
+      //certificates: ['/certificates/yaya-cert.jpg']
+    },
   {
     company: 'Amertron Inc., Clark Angeles City,Philippines',
     position: 'MIS Senior Supervisor',
@@ -74,7 +82,8 @@ const experiences = [
       'Managed software projects from conception to deployment, ensuring alignment with business objectives. | ' +
       'Maintained and optimized MIS infrastructure, contributing to operational efficiency. | ' +
       'Skills: Software Project Management, Management Information Systems (MIS), Software Development, System Administration'
-  },
+      //certificates: ['/certificates/yaya-cert.jpg']
+    },
   {
     company: 'Integrated Solutions Technology, Makati, Philippines',
     position: 'Software Programmer',
@@ -82,7 +91,8 @@ const experiences = [
     description: 'Developed software applications using VB.NET and Oracle SQL Developer, meeting client specifications. | ' +
       'Collaborated with teams to design, code, and test software solutions, ensuring quality and performance. | ' +
       'Skills: VB.NET, Oracle SQL Developer, Software Development, Application Programming'
-  },
+      //certificates: ['/certificates/yaya-cert.jpg']
+    },
   {
     company: 'L&T International Group Philippines Inc., Clark Angeles City, Philippines',
     position: 'Systems Support Specialist',
@@ -90,7 +100,8 @@ const experiences = [
     description: 'Provided technical support and maintenance for IT systems, ensuring continuous operations. | ' +
       'Created technical documentation and assisted in software development projects. | ' +
       'Managed help desk support, resolving user issues promptly and effectively. | ' +
-      'Skills: Technical Documentation, IT Hardware Support, Programming, Help Desk Support, Technical Support'
+      'Skills: Technical Documentation, IT Hardware Support, Programming, Help Desk Support, Technical Support',
+      //certificates: ['/certificates/yaya-cert.jpg']
   }
 ];
 
@@ -108,7 +119,23 @@ const ExperienceTimeline: React.FC = () => {
                 <h3 className="text-xl font-bold mb-1">{exp.position}</h3>
                 <h4 className="text-lg text-blue-600 mb-2">{exp.company}</h4>
                 <p className="text-gray-500 text-sm mb-3">{exp.period}</p>
-                <p className="text-gray-700">{exp.description}</p>
+                <p className="text-gray-700 mb-4">{exp.description}</p>
+                
+                {exp.certificates && exp.certificates.length > 0 && (
+                  <div className="mt-4">
+                    <h5 className="text-sm font-semibold mb-2">Certificates:</h5>
+                    <div className="flex flex-wrap gap-2">
+                      {exp.certificates.map((cert, idx) => (
+                        <img 
+                          key={idx}
+                          src={cert}
+                          alt={`Certificate for ${exp.company}`}
+                          className="w-24 h-auto rounded"
+                        />
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           ))}
@@ -119,6 +146,9 @@ const ExperienceTimeline: React.FC = () => {
 };
 
 export default ExperienceTimeline;
+
+
+
 
 
 
