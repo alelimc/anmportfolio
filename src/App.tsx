@@ -142,7 +142,7 @@ function App() {
             />                                  
             <ProjectCard
               title="Website Design and Implementation"
-              description="Designed and developed a modern, responsive website for Yaya Homecare Services. Implemented SEO best practices, optimized performance, and created an intuitive user interface. The site features service information, contact forms, and a client portal, resulting in increased client engagement and improved online presence."
+              description="Designed and developed modern, responsive websites for Ontario Filipino Women's Club organization and Yaya Care Home Services. Implemented SEO practices, optimized performance, and created an intuitive user interface. The site features service information, contact forms, and a client portal, resulting in increased client engagement and improved online presence."
               technologies={['HTML5', 'CSS3', 'JavaScript', 'Responsive Design', 'SEO']}
               image="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
               githubUrl="https://github.com/leizcool"
