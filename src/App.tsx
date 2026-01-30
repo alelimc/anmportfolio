@@ -32,7 +32,7 @@ function App() {
             <div className="max-w-3xl mx-auto">
               <p className="text-lg mb-6 leading-relaxed text-blue-100 font-light">
                 A versatile Tech Professional with 10+ years of global experience, combining deep expertise in System Administration 
-                with modern Software Engineering practices. Recently completed Software Engineering Technology at Centennial College (April 2025).
+                with modern Software Engineering practices. Recently completed Software Engineering Technology at Centennial College with Honors (April 2025).
               </p>
               
               <div className="grid md:grid-cols-2 gap-6 mb-8 text-left">
