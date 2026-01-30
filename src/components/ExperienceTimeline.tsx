@@ -1,10 +1,16 @@
 import React from 'react';
 
 const experiences = [
+   {
+    position: 'Freelance Web Designer & Developer',
+    period: 'November 2023 - present',
+    description: 'I design and develop responsive, user-friendly websites for small businesses and entrepreneurs. I turn ideas into modern digital experiences through clean UI/UX design, performance optimization, and SEO-ready builds. I work end-to-end—from concept to launch—while providing ongoing maintenance and support.',
+    //certificates: ['/certificates/precise-cert.jpg']
+  },
   {
     company: 'Precise Solutions, Toronto, ON, Canada',
     position: 'Test Invigilator (Part-Time)',
-    period: 'May 2024 – Present',
+    period: 'May 2024 - December 2025',
     description: 'Administer standardized exams, ensuring strict adherence to testing protocols and maintaining a secure environment. | Monitor candidates to uphold academic integrity and provide technical assistance as needed. | Maintain accurate records and promptly report any irregularities to uphold testing standards.',
     //certificates: ['/certificates/precise-cert.jpg']
   },
